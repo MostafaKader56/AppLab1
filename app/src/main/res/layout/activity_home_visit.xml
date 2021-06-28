@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.HomeVisitActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp">
+
+            <LinearLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="15dp"
+                android:background="@drawable/input_data_background"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingHorizontal="5dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/homVisitTip"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="15dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputLayoutName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/InputLayout_fullName"
+                    app:errorEnabled="true"
+                    app:boxStrokeColor="@color/colorPrimary"
+                    android:layout_marginHorizontal="10dp"
+                    app:startIconDrawable="@drawable/ic_name"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/inputEditTextName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:inputType="textPersonName" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputLayoutPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/InputLayoutPhone"
+                    app:errorEnabled="true"
+                    app:boxStrokeColor="@color/colorPrimary"
+                    android:layout_marginHorizontal="10dp"
+                    app:startIconDrawable="@drawable/ic_phone"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/inputEditTextPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:inputType="phone" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputLayoutAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/InputLayoutFull_address"
+                    app:errorEnabled="true"
+                    app:boxStrokeColor="@color/colorPrimary"
+                    android:layout_marginHorizontal="10dp"
+                    app:startIconDrawable="@drawable/ic_location"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/inputEditTextAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:inputType="text" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputLayoutTestName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/InputLayoutTestName"
+                    app:errorEnabled="true"
+                    app:startIconDrawable="@drawable/ic_analsis"
+                    app:boxStrokeColor="@color/colorPrimary"
+                    android:layout_marginHorizontal="10dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/inputEditTextTestName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:inputType="text" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/InputLayoutNotes"
+                    app:errorEnabled="true"
+                    app:startIconDrawable="@drawable/ic_note"
+                    app:boxStrokeColor="@color/colorPrimary"
+                    android:layout_marginHorizontal="10dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/inputEditTextNotes"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:inputType="text" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/dummyId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textAllCaps="false"
+                        android:text="@string/submit"
+                        android:onClick="submitButtonClicked"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="bold"
+                        android:layout_weight="3" />
+
+                    <Button
+                        android:id="@+id/attachButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:textAllCaps="false"
+                        android:text="@string/attach"
+                        android:onClick="attachButtonClicked"
+                        android:textStyle="bold"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

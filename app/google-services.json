@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "537388501430",
+    "project_id": "app-lab-el-hayah",
+    "storage_bucket": "app-lab-el-hayah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537388501430:android:3fbad328832fb9cb195917",
+        "android_client_info": {
+          "package_name": "com.technoship.appLab1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537388501430-c6qt9ine2v34mng5hag0up1horv18jm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.technoship.appLab1",
+            "certificate_hash": "25ce016f26559e315f8d66d7dfc285d1af0808bc"
+          }
+        },
+        {
+          "client_id": "537388501430-3k8j98oiimacaqns98fu9metqlooinen.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkV9cvWbJ4H0LIkjHTsiaj0HWVRam2Yao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537388501430-3k8j98oiimacaqns98fu9metqlooinen.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

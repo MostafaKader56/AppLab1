@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/main_menu_phone" app:showAsAction="always" android:title="@string/main_menu_phoneText"  android:icon="@drawable/ic_phone"/>
+    <item android:id="@+id/main_menu_lang" app:showAsAction="ifRoom" android:title="@string/main_menu_langText"/>
+    <item android:id="@+id/main_menu_appInfo" app:showAsAction="never" android:title="@string/main_menu_aboutText"/>
+</menu>

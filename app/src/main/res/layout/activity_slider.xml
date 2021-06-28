@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SliderActivity">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/dotsLayout">
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha=".5"
+        android:background="@color/white"
+        android:layout_above="@+id/dotsLayout"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sliderButtonRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@null"
+        android:layout_margin="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        tools:ignore="RelativeOverlap"
+        android:layout_alignParentRight="true" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sliderButtonLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@null"
+        android:layout_margin="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/langButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@null"
+        android:layout_margin="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/langButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@null"
+        android:layout_margin="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        tools:ignore="RelativeOverlap" />
+
+</RelativeLayout>

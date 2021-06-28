@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">معمل الحياة</string>
+    <string name="imageContentDescription">صورة</string>
+    <string name="main_menu_phoneText">الهاتف</string>
+    <string name="main_menu_langText">ENG</string>
+    <string name="main_menu_aboutText">عن التطبيق</string>
+
+    <string name="main_view_tag_homeVisit">زيارة منزلية</string>
+    <string name="main_view_tag_offers">عروض</string>
+    <string name="main_view_tag_results">نتائج</string>
+    <string name="main_view_tag_branches">فروعنا</string>
+    <string name="main_view_tag_packages">باقات</string>
+    <string name="main_view_tag_healthTips">نصائح صحية</string>
+    <string name="main_view_tag_examinationPrecautions">شروط التحاليل</string>
+    <string name="main_view_tag_announcement">اشعارات</string>
+    <string name="main_view_tag_contactUs">تواصل معنا</string>
+    <string name="main_view_tag_aboutUs">عن المعمل</string>
+
+    <string name="splashActivity_updateDialogContent">حدث إلى أحدث إصدار للتمتع بخدمات أفضل.</string>
+    <string name="splashActivity_updateDialogTitle">هناك إصدار جديد</string>
+    <string name="splashActivity_update">تحديث</string>
+    <string name="splashActivity_Exit">خروج</string>
+    <string name="splashActivity_discard">تجاهل</string>
+    <string name="splash_poorConnectionTip">اتصال ضعيف بالشبكة</string>
+    <string name="Slider_next">التالي</string>
+    <string name="Slider_skip">تجاهل</string>
+    <string name="Slider_start">إبدا</string>
+    <string name="splashActivity_ask4network_title">نعتذر</string>
+    <string name="splashActivity_ask4network_message">لم يتم توصيل التطبيق بالشبكة من قبل ، يجب عليك الاتصال بالإنترنت وإعادة فتح التطبيق.</string>
+    <string name="splashActivity_unExpectedError_title">نأسف لذلك</string>
+    <string name="splashActivity_unExpectedError_message">لقد حدث خطأ غير متوقع. الرجاء معاودة المحاولة في وقت لاحق.</string>
+    <string name="sliderActivity_alertTitle">نأسف لذلك</string>
+    <string name="sliderActivity_alertMessage">يجب عليك التأكد من وجود اتصال جيد بالشبكة وإعادة فتح التطبيق في وقت لاحق.</string>
+    <string name="opening">فتح التطبيق…</string>
+    <string name="noOffersTip">لا يوجد عروض الآن</string>
+    <string name="noBranches_tip">لاتوجد فروع للعرض</string>
+    <string name="noPackages_tip">لا يوجد باقات الآن</string>
+    <string name="noAnnouncements_tip">لا يوجد اشعارات الآن</string>
+
+    <string-array name="notificationTitle">
+        <item>هناك عرض جديد</item>
+        <item>هناك باقة جديدة</item>
+        <item>هناك نصيحة طبية جديدة</item>
+        <item>تم فتح فرع جديد للمعمل</item>
+        <item>هناك اشعار جديد</item>
+    </string-array>
+
+    <string name="Slider_firstSlide_header">عصر السرعة</string>
+    <string name="Slider_firstSlide_tip">دلوقتي من خلال تليفونك المعمل هو الي هيجيلك</string>
+    <string name="Slider_secondSlide_header">زيارة منزلية</string>
+    <string name="Slider_secondSlide_tip">من خلال تليفونك تقدر تطلب زيارة منزلية لسحب العينة من المنزل</string>
+    <string name="Slider_thirdSlide_header">طلب النتيجة</string>
+    <string name="Slider_thirdSlide_tip">وكمان هنجبلك نتائج التحليل من خلال التطبيق</string>
+    <string name="Slider_fourSlide_header">ونصائح طبية كتير</string>
+    <string name="Slider_fourSlide_tip">هتوصل لنصائح طبية للحفاظ علي صحتك لأن الوقاية خير من العلاج</string>
+    <string name="Slider_fiveSlide_header">العروض</string>
+    <string name="Slider_fiveSlide_tip">هتقدر تستمتع بعروض المعمل غير الخصم بمجرد استعمال التطبيق</string>
+    <string name="Slider_sixSlide_header">يلا بينا</string>
+    <string name="Slider_sixSlide_tip">لنبدأ الحصول علي خدمات المعمل اونلاين</string>
+
+    <string name="detailsActivityTitle">التفاصيل</string>
+    <string name="see_more">اقرأ المزيد…</string>
+    <string name="map">خريطة</string>
+    <string name="like_facebook">تابعنا علي فيسبوك</string>
+    <string name="whatsapp">واتس اب: 01094975895</string>
+    <string name="send_mail">راسلنا عبر البريد الإلكتروني</string>
+    <string name="rate_play_store">قيم التطبيق علي متجر بلاي</string>
+    <string name="version">الإصدار: %1$s</string>
+    <string name="myWhatsapp">واتس اب: ٠١٠١٥٦٧٧٢٢٥</string>
+    <string name="app_creation_welcome">تم إنشاء التطبيق بواسطة مصطفى عبد القادر.</string>
+    <string name="InputLayout_fullName">الاسم الكامل</string>
+    <string name="InputLayoutPhone">رقم الهاتف</string>
+    <string name="InputLayoutFull_address">العنوان</string>
+    <string name="InputLayoutTestName">نوع التحليل</string>
+    <string name="InputLayoutNotes">ملاحظات اضافية</string>
+    <string name="submit">ارسال</string>
+    <string name="attach">ارفاق صورة</string>
+    <string name="homeVisitRequest_title">طلب زيارة منزلية</string>
+    <string name="homVisitTip">يرجى ملء البيانات أدناه وسنقوم بالتواصل معك في أقرب وقت ممكن.</string>
+    <string name="requestSent_title">تم إرسال الطلب</string>
+    <string name="requestSent_description">تم إرسال طلبك بنجاح وسوف نتواصل معك في أقرب وقت ممكن.</string>
+    <string name="ok">حسنا ً</string>
+    <string name="sendingPictureTitle">ارسال صورة</string>
+    <string name="sendingPictureMessage">من اين تريد ارفاق الصورة؟</string>
+    <string name="sendingPictureButton1">التقاط صورة</string>
+    <string name="sendingPictureButton2">اختيار من المعرض</string>
+    <string name="cancel">الغاء</string>
+    <string name="imageNotSelected">لم يتم ارفاق صورة</string>
+    <string name="fieldRequired">هذا الحقل مطلوب.</string>
+    <string name="wrongPhone">رقم هاتف خاطئ.</string>
+    <string name="gpsDisabledTitle">يبدو أن نظام تحديد المواقع (GPS) معطل</string>
+    <string name="gpsDisabledMessage">قم بتمكين GPS وإعادة إرسال الطلب ، هل تريد تمكينه الآن؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="enableGps">قم بتشغيل GPS</string>
+    <string name="loadingTextGetLocation">الحصول على الموقع…</string>
+    <string name="loadingTextSendOrder">إرسال الطلب…</string>
+    <string name="location">الموقع</string>
+    <string name="alertIfAttachLocationMessage">هل تريد إرفاق موقعك الحالي بالطلب حتى يتمكن مندوب المعمل من الوصول إليك بسهولة؟</string>
+    <string name="gpsNotAllowedMessage">يجب أن يحصل التطبيق على إذن للعثور على الموقع حتي يتم ارفاقة مع الطلب.</string>
+    <string name="sendPictureTitle">ارسال صورة</string>
+    <string name="sendPictureMessage">من اين تريد ارسال الصورة؟</string>
+    <string name="sendPictureButton1">التقاط صورة</string>
+    <string name="sendPictureButton2">اختيار من المعرض</string>
+    <string name="uploadingImage">تحميل الصورة…</string>
+    <string name="percentage">النسبة مئوية: \</string>
+    <string name="imageUploaded">تم إرفاق الصورة بنجاح.</string>
+    <string name="undo">تراجع</string>
+    <string name="imageCanceled">تم إلغاء اختيار الصورة.</string>
+    <string name="gpsNotAllowed">لا يمكن إرفاق الموقع الحالي مع الطلب دون منح التطبيق حق الوصول إلى الموقع.</string>
+    <string name="patient_name">اسم المريض</string>
+    <string name="resultActivityTip">الرجاء إدخال رقم الهاتف المسجل لدينا وسوف نتصل بك عبر مكالمة هاتفية أو الواتس اب.</string>
+    <string name="oneTimeUse_Tip">هذا العرض لمرة واحدة.</string>
+
+
+    <string name="resultRequest_title">طلب نتيجة</string>
+    <string name="protect_fromCovid_title">الوقاية من فيروس كورونا</string>
+    <string name="dangerOfObesity_title">مخاطر مرض السمنة</string>
+    <string name="foodAllergy_title">حساسية الطعام</string>
+    <string name="bloodPicture_title">اهمية تحليل صورة الدم الكاملة</string>
+    <string name="breastCancer_title">التوعية ضد سرطان الثدي</string>
+    <string name="sensitivityOfInhalants_title">حساسية المستنشقات</string>
+    <string name="eatNuts_title">اهتم بأكل المكسرات</string>
+    <string name="drinkSugar_title">لا تشرب المشروبات السكرية</string>
+    <string name="junkFood_title">تجنب الوجبات السريعة</string>
+    <string name="fearCoffe_title">لا تخف من القهوة</string>
+    <string name="fattyFich_title">اهتم بأكل الأسماك الدهنية</string>
+    <string name="enoughSleep_title">الحصول على ما يكفي من النوم</string>
+    <string name="protect_fromCovid_desc">نظف اليدين باستمرار بفركهما بمطهر كحولي أو غسلهما جيدا بالماء والصابون\nعند السعال والعطس ، احرص على تغطية الفم والأنف بمرفقك المثني أو بمنديل ورقي ، وتخلص من المنديل بعد ذلك فورا واغسل يديك\nتجنب الاقتراب من الأشخاص المصابين بالحمى والسعال ، والاحتفاظ بمسافة لا تقل عن متر واحد ( 3 أقدام )\nإذا كنت مصابا بالحمى والسعال وصعوبة التنفس ، بادر بالتوجه بأماكن العناية الطبية مبكرا\nالاجراء تحاليل كورونا اتصل بنا الان على 01094975895</string>
+    <string name="dangerOfObesity_desc">عندما يزداد وزنك او ان تكون بالفعل شخصا سمينا فإنك تشعر بقلق و عدم ثقة بالنفس كما أنه يمثل خطر على صحتك ومن مخاطر السمنة:\n- أمراض القلب\n- ارتفاع ضغط الدم\n- السكتة الدماغية\n- داء السكري من النوع ۲\n- زيادة دهون الدم الضارة\n- التهاب المفاصل\n- السرطان\n- حصي المرارة\n- النقرس\nفي معمل الحياة يمكنك عمل 5 تحاليل خاصة بالسمنة قبل البدأ بالعلاج والرجيم لضمان خطوات آمنة " تحليل وظائف كلى ، وظائف کبد ، الغدة الدرقية ، الدهون الثلاثية ، تحليل سكر وأنواعه.</string>
+    <string name="foodAllergy_desc">تحتار العديد من الأمهات مع اولادهم عندما يتعرضوا لنوع من الحساسية حيث أنها أنواع عديدة وتختلف من شخص لآخر.\nمعمل الحياة تمتلك جهاز اختبار حساسية ل ۳۰ نوع طعام واستنشاق بعينة واحد فقط تستطيع من خلال هذا الجهاز التعرف على نوع الحساسية وتسبب من اي شئ بالظبط.\nكوني أم آمنة وبادري بعمل فحص اختبار الحساسية لطفلك.</string>
+    <string name="bloodPicture_desc">هل عرفت من قبل أهمية تحليل صورة الدم الكاملة ؟\nهي من أهم التحاليل التي تكشف بسهولة أمراض الدم و الأمراض الأخرى التي تؤثر على وظائف الجسم فقد تشعر أحيانا بإرهاق ولا تستطيع فعل المهام الخاصة بك وذلك قد يرجع للأنيميا الموجودة بالدم يمكن أن تجد طفلك ليس لديه الاستيعاب التام لمواده الدراسية\nعليك بعمل تحليل صورة الدم الكاملة بشكل دوري للإطمئنان على محتك صحة أولادك</string>
+    <string name="breastCancer_desc">سرطان الثدي من أكثر للامراض انتشارا للسيدات ويهدد جزء كبير من حياتهم\nالاكتشاف المبكر لسرطان الثدي ممكن أن يقلل من خطر الإصابة به بادر بالفحص و ابدأ صح لحجز خدمة سحب العينة من المنزل اتصل على 01094975895</string>
+    <string name="sensitivityOfInhalants_desc">من أصعب انواع الحساسية هي حساسية المستنشقات خاصة في فترات الأتربة و البروده والشهور الدراسية بالنسبة للطلاب وتسبب حساسية المستنشقات اعراض الحساسية العينية والانفيه والصدريه مثل حساسية حبوب اللقاح ، القطط ، الطيور ، وعثة الغبار ، مما تجعل الإنسان يتأذى و يدخل في فترة مرضيه طويله و مؤلمة له بعض الأشخاص قد لا يعرفون ما هو سبب الحساسية و من ای نوع وما هي فترة وجودها فمن المهم عمل فحص اختبار حساسية المستنشقات للاهتمام بصحتكم معمل الحياة يقدم هذا الاختبار ل ۳۰ نوع مختلف من أنواع الفطريات و المستنشقات و الاتربة و العطور و الدهانات.</string>
+    <string name="eatNuts_desc">على الرغم من كونها غنية بالدهون فإن المكسرات مغذية وصحية بشكل لا يصدق\nيتم تحميلها مع المغنيسيوم وفيتامين E والألياف والمواد المغذية الأخرى المختلفة ( 9 )\nتظهر الدراسات أن المكسرات يمكن أن تساعدك على إنقاص الوزن ، وقد تساعد في محاربة داء السكري من النوع 2 ومرض القلب ( 10 ، 11 ، 12 )\nبالإضافة إلى ذلك ، حوالي 10–15 ٪ من السعرات الحرارية في المكسرات لا يتم امتصاصها حتى في الجسم ، وبعض الأدلة تشير إلى أنه يمكن أن يعزز الأيض ( 13 )\nفي إحدى الدراسات أظهر اللوز زيادة فقدان الوزن بنسبة 62 ٪ مقارنة مع الكربوهيدرات 4 المعقدة ( 14 ) .</string>
+    <string name="drinkSugar_desc">المشروبات السكرية هي أكثر الأشياء تسمينة التي يمكن وضعها في جسمك\nوذلك لأن السعرات الحرارية للسكر السائل لا يتم تسجيلها من قبل الدماغ بنفس طريقة السعرات الحرارية من الأطعمة الصلبة ( 1 )\nلهذا السبب ، عندما تشرب الصودا ، ينتهي بك الأمر إلى تناول المزيد من السعرات الحرارية الكلية ( 2 ، 3\nترتبط المشروبات السكرية بشدة بالسمنة ، السكري من النوع 2 ، أمراض القلب وجميع أنواع المشاكل الصحية ( 4 ، 5 ، 6 ، 7 )\nضع في اعتبارك أن عصائر الفاكهة هي تقريبا سيئة مثل الصودا في هذا الصدد\nأنها تحتوي على قدر من السكر والكميات الصغيرة من مضادات الأكسدة لا ينفي الآثار الضارة للسكر ( 8 )</string>
+    <string name="junkFood_desc">جميع الأطعمة السريعة المعالجة في النظام الغذائي هي السبب الأكبر في العالم أكثر بدانة ومرضا من أي وقت مضى ، وقد تم تصميم هذه الأطعمة لتكون " مجزية للغاية " لذا فهي تخدع أدمغتنا في تناول الطعام أكثر مما نحتاج إليه ، حتى تؤدي إلى الإدمان لدى بعض الأشخاص (15)\nكما أنها منخفضة في الألياف والبروتين والمغذيات الدقيقة (السعرات الحرارية الفارغة) ، ولكنها مرتفعة المكونات غير الصحية مثل السكر المضاف والحبوب المكررة</string>
+    <string name="fearCoffe_desc">القهوة قد تم تصويرها بشكل غير عادل\nوالحقيقة هي أنه في الواقع صحي جدا\nالقهوة تحتوي على نسبة عالية من مضادات الأكسدة وتظهر الدراسات أن مقيمي القهوة يعيشون لفترة أطول ، ويقل لديهم خطر الإصابة بالسكري من النوع 2 ، ومرض باركنسون ، ومرض ألزهايمر ، وأمراض أخرى عديدة</string>
+    <string name="fattyFich_desc">يتفق الجميع إلى حد كبير على أن الأسماك تتمتع بصحة جيدة\nهذا صحيح بشكل خاص من الأسماء الدهنية ، مثل سمك السلمون ، والتي يتم تحميلها مع أحماض أوميغا 3 الدهنية ومختلف العناصر الغذائية الأخرى ( 22 )\nتشير الدراسات إلى أن الأشخاص الذين يتناولون معظم الأسماك لديهم مخاطر أقل من جميع أنواع الأمراض ، بما في ذلك أمراض القلب والخرف والاكتئاب ( 23 ، 24 ، 25 )</string>
+    <string name="enoughSleep_desc">لا يمكن المبالغة في أهمية الحصول على ما يكفي من النوم الجيد\nقد يكون بنفس أهمية النظام الغذائي وممارسة الرياضة إن لم يكن أكثر\nيمكن للنوم السيئ أن يدفع بمقاومة الأنسولين ، وأن يرمي هورمونات الشهية لديك بعيدة عن الأجراس ويقلل من أدائك البدني والعقلي ( 26 ، 27 ، 28 ، 29 )\nما أكثر من ، هو واحد من أقوى عوامل الخطر الفردية لزيادة الوزن والسمنة في المستقبل.\nوأظهرت إحدى الدراسات أن النوم القصير يرتبط بزيادة خطر الإصابة بالبدانة لدى الأطفال بنسبة 89 % ، و 55 % عند البالغين ( 30 ).</string>
+
+
+    <string-array name="AmPm">
+        <item>ص</item>
+        <item>م</item>
+    </string-array>
+
+    <string-array name="Months">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>ابريل</item>
+        <item>مايو</item>
+        <item>يونية</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نزفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+
+    <string name="pre_exam_title_item1">ملاحظات عامة</string>
+    <string name="pre_exam_title_item2">مزرعة بول</string>
+    <string name="pre_exam_title_item3">عينة بول 24 ساعة</string>
+    <string name="pre_exam_title_item4">بول 3 أيام متتالية</string>
+    <string name="pre_exam_title_item5">دهنيات الدم</string>
+    <string name="pre_exam_title_item6">سكر صائم</string>
+    <string name="pre_exam_title_item7">سكر بعد الأكل بساعتين</string>
+    <string name="pre_exam_title_item8">بصاق 3 أيام متتالية</string>
+    <string name="pre_exam_title_item9">بول الحمل</string>
+    <string name="pre_exam_title_item10">تحليل السائل المنوي</string>
+    <string name="pre_exam_title_item11">مسحة من القضيب</string>
+    <string name="pre_exam_title_item12">مسحة أمراض النساء</string>
+    <string name="pre_exam_title_item13">تحليل PSA</string>
+    <string name="pre_exam_title_item14">مزرعة براز</string>
+    <string name="pre_exam_title_item15">تحاليل "VMA" و "HIAA" و "Catecholamine" و "HydroxyProlen"</string>
+    <string name="pre_exam_title_item16">أدوية الربو</string>
+    <string name="pre_exam_title_item17">أدوية مضادات الصرع</string>
+    <string name="pre_exam_title_item18">مزرعة أو إفرازات غدة البروستاتا</string>
+
+    <string name="pre_exam_details_item1">في حالة التحاليل التي تتطلب صيام المريض يمكن شرب الماء في أي وقت.\nنحن نقدم خدمة أخذ العينات ؛ لذا يمكننا جمع العينات من المنازل أو المكاتب أو المستشفيات.</string>
+    <string name="pre_exam_details_item2">يشترط غسل اليد والأعضاء التناسلية بالماء والصابون وتطهير فتحة البول بالمطهر ( الديتول ) - ثم نغسل مرة أخرى بالماء لإزالة المطهر الزائد.\nثم نفرغ الجزء الأول من البول في دورة المياه ويجمع الباقي في الإناء المعقم الذي يوفره المعمل كما يفضل الامتناع عن أحد المضاد الحيوي لمدة 48 ساعة لكي نعطي للميكروب فرصة للنمو كما يفضل أن تكون فترة حضانة البول داخل المثانة من 2 ساعة إلى 6 ساعات.\n( في حالة إرسال العينة من المنزل يجب أن تصل إلى المعمل في خلال ساعتين على الأكثر حتى لايموت الميكروب أو يزداد العد البكيتري كما أنه يكتب عليها احضرت العينه من المنزل)</string>
+    <string name="pre_exam_details_item3">يقوم المريض بإفراغ المثانة كاملة في المرحاض ويقوم بتسجيل الوقت في ذلك الحين - ثم - يقوم بتجميع أي بول بعد ذلك في زجاجة مناسبة نظيفة وجافة وكافية للتجميع ويستمر تجميع البول إلى نفس الوقت الذي تم فيه بداية التجميع من اليوم التالي ويحفظ البول في الثلاجة لحين إرساله إلى المعمل.</string>
+    <string name="pre_exam_details_item4">يعمل هذا التحليل للكشف عن میکروب الدرن في 3 عينات لأن الميكروب من الممكن أن يظهر في عينة ولا يظهر في عينة أخرى.</string>
+    <string name="pre_exam_details_item5">يشترط الصيام من 12–14 ساعة وذلك لاكتمال امتصاص الدهون بالدم وثبات نسبتها.</string>
+    <string name="pre_exam_details_item6">يشترط الصيام من 6–8 ساعات وذلك الاكتمال احتراق السكر وأخذ النسبة والمريض صائم.</string>
+    <string name="pre_exam_details_item7">يرجى البدء في حساب ساعتين من بدء وجبتك وأخذ أي أدوية إن احتجت لذلك،\nمع الحرص على الانتهاء من تناول الطعام خلال 10 دقائق على الأكثر ( وعدم تناول أي شيء لحين تقديم عينة الدم الخاصة بك ).\nبرجاء التفضل بالحضور إلى المعمل قبل 15 دقيقة من موعد التحليل.</string>
+    <string name="pre_exam_details_item8">يرجى تجميع أول بصاق في الصباح بعد الغرغرة بالماء عدة مرات وقبل الأكل ولن نقبل عينات اللعاب،\nويجب تسليم العينات كل على حدة في نفس اليوم.\nقد ترغب في الاستعانة باستنشاق بخار الماء الساخن في الصباح لتسهيل عملية جمع العينة.</string>
+    <string name="pre_exam_details_item9">يفضل أول بول في الصباح حيث أن هورمون الحمل يكون أكثر تركيزة مع الإقلال من تناول السوائل مساء اليوم السابق للتحليل (حتی الا يخف تركيز الهرمون).\nإذا كانت النتيجة سلبية نقترح إجراء اختبار الحمل عن طريق الدم لأن هذا الاختبار أكثر حساسية.</string>
+    <string name="pre_exam_details_item10">يشترط الامتناع عن الجماع أو حدوث الاحتلام لمدة 3–5 أيام متتالية وذلك حتى لا تتأثر الكمية كما يفضل إعطاء العينة في المعمل الاهتمام بوضع النقط الأولى من المني وذلك لأن هذه النقاط تحتوي على ثلاثة أرباع عدد الحيوانات المنوية.\n أما إذا أحضرت العينة من المنزل لايجب أن يمر عليها أكثر من 20 دقيقة.</string>
+    <string name="pre_exam_details_item11">يتم حجز البول لمدة ساعة قبل إجراء الاختبار حتى يكون مجری البول جاف تماما لنتأكد أن الميكروب الموجود من القضيب وليس من البول.</string>
+    <string name="pre_exam_details_item12">هذه العينة بموعد سابق ويشترط عدم الجماع لمدة يومين حتى نتأكد أن الميكروب أخذ فرصته للنمو مع الامتناع عن المضاد الحيوي لمدة 48 ساعة.</string>
+    <string name="pre_exam_details_item13">يمتنع المريض 10 أيام قبل إجراء التحليل عن إدخال منظار أو قسطرة أو فحص شرجي للبروستاتا لأن هذا سوف يؤثر على نتيجة التحليل إلا إذا كان هناك رأي آخر للطبيب المعالج.</string>
+    <string name="pre_exam_details_item14">يشترط وصول العينة إلى المعمل في خلال ساعتين على الأكثر لأن هناك بعض الميكروبات التي تموت بسرعة ولا تقبل عينات في بامبرز أو علب من الكرتون لأنها تمتص السوائل من العينة والجفاف يقتل الميكروبات ويفضل الامتناع عن المضاد الحيوي لمدة 48 ساعة.\nوإذا أحضرت العينة من المنزل يكتب ذلك عليها.</string>
+    <string name="pre_exam_details_item15">قم بتجميع عينة بول 24 ساعة ( كما هو موضح أعلاه ) في زجاجة خاصة يقدمها المعمل،\nويرجى الامتناع خلال ال 48 ساعة السابقة للتحليل عن تناول أو ابتلاع أي شاي أو قهوة أو بسكويت أو فانيليا أو برقوق أو أفوكادو أو أناناس أو باذنجان أو طماطم أو موز.</string>
+    <string name="pre_exam_details_item16">يؤخذ الدواء لمدة 5 أيام بانتظام وذلك بهدف الوصول بالدواء المستوي ثابت بالدم ويشترط عدم القيء أو الإسهال لمدة 48 ساعة قبل إجراء التحليل لأن ذلك سوف يؤثر على الجرعة وبالتالي مستوى الدواء بالدم،\nتؤخذ عينة قبل أي جرعة الحساب نسبة الدواء في أقل مستوى ( Trough ) ثم تؤخذ عينة أخرى بعد تناول الدواء ب 2 ساعة ( تختلف من دواء إلى آخر لحساب أعلى نسبة للدواء في الدم ( Peak ) وذلك حتی نتأكد أن الجرعة المؤثرة دون الوصول إلى التسمم الدوائي.</string>
+    <string name="pre_exam_details_item17">يؤخذ الدواء لمدة 5 أيام بانتظام وذلك بهدف الوصول بالدواء المستوي ثابت بالدم ويشترط عدم القيء أو الإسهال لمدة 48 ساعة قبل إجراء التحليل لأن ذلك سوف يؤثر على الجرعة وبالتالي مستوى الدواء بالدم،\nتؤخذ عينة قبل أي جرعة الحساب نسبة الدواء في أقل مستوى ( Trough ) ثم تؤخذ عينة أخرى بعد تناول الدواء ب 2 ساعة ( تختلف من دواء إلى آخر لحساب أعلى نسبة للدواء في الدم ( Peak ) وذلك حتی نتأكد أن الجرعة المؤثرة دون الوصول إلى التسمم الدوائي.</string>
+    <string name="pre_exam_details_item18">التحليل يكون بالحجز فقط،\nيجب على المريض الامتناع عن التبول الفترة من الوقت قبل الخضوع التحليل،\nكما يستحسن عدم أخذ أي مضادات حيوية خلال ال 48 ساعة السابقة للتحليل.</string>
+
+    <string name="about_tag_whoseWe">من نحن</string>
+    <string name="about_tag_ourSight">رؤيتنا</string>
+    <string name="about_tag_ourMessage">رسالتنا</string>
+    <string name="about_tag_ourPrevilges">تميزنا</string>
+    <string name="about_tag_agreements">التعاقدات</string>
+    <string name="about_tag_salamtkProgram">برنامج سلامتك</string>
+    <string name="about_title_whoseWe">من نحن ؟</string>
+    <string name="about_message_whoseWe">نحن فريق طبي نسعي الي تقديم مساهمة صغيرة ولكن إيجابية من أجل مستقبل أفضل ونعمل علي بناء مجتمع أفضل وأقوي وأصح من خلال تحسين فرص الحصول علي خدمة جيدة.</string>
+    <string name="about_title_ourSight">رؤيتنا</string>
+    <string name="about_message_ourSight">أن نكون أفضل من نقدم الخدمة في أقل وقت ممكن بالتكلفة المناسبة بدون غلاء أو استغلاء ونسعي إلي تحقيق الرؤية من خلال:\nالإلتزام الكامل من فريق العمل لتقديم الخدمة علي الوجه الأكمل \nواستخدام التكنولوجيا الجديدة والمتطورة.</string>
+    <string name="about_title_outMessage">رسالتنا</string>
+    <string name="about_message_ourMessage">أن نكون دائما بجانب كل إنسان يحتاج للخدمة وإمداده بالمعلومات التشخيصية المعملية عالية الجودة في أقل وقت ممكن وبأنسب الأسعار.</string>
+    <string name="about_title_ourPrivilage">نتميز بالآتي...</string>
+    <string name="about_message_ourPrivilage">المعمل به فريق طبي متميز يعمل بروح الفريق.\nالمعمل يوفر جهاز الهرمونات ودلال الأورام.\nالمعمل يوفر أحدث جهاز في عمل السكر التراكمي.\nالمعمل يوفر جهاز (CASA) لتحليل السائل المنوي بالكمبيوتر.\nالمعمل ينفرد بتطبيق نظام الباركود في تسجيل العينات لمنع احتمالات الخطأ البشري في إدخال العينات علي الأجهزة.\nالمعمل يعمل علي مدار 24 ساعة في اليوم وذلك مراعاة لحالات الطوارئ.\nالمعمل يوفر خدمة سحب العينات من المنازل والعيادات.\nالمعمل يوفر برامج اشتراكية بأسعار مخفضة متنوعة تناسب الجميع.\nالمعمل يرحب بجميع التعاقدات مع المؤسسات المختلفة.\nالمعمل يوفر نظام السحب الذاتي (vaccum) لمنع احتمالية تلوث العينات.\nالمعمل به فريق طبي متميز في سحب العينات للأطفال حديثي الولادة.</string>
+    <string name="about_title_agreement">العملاء المتعاقدون مع معمل الحياة</string>
+    <string name="about_message_agreement">1- البنك الاهلي المصري.\n2- جمعية تساهيل للقروض.\n3- نقابة المحامين.\n4- شركة المياة والصرف الصحي.\n5- مكتب الراعي للتنمية.\n6- جمعية المحبة القبطية الأرثوذكسية.\n7- جمعية الرواد لتنمية المجتمع بالخطارة.\n8- جمعية البر لتنمية المجتمع بالخطارة.\n9- الجمعية النسائية لتنمية المجتمع بحاجر دنفيق.\n10- جمعية الندي لتنمية المجتمع بحاجر دنفيق.\n11- مركز القلب الفرحان لرعاية زوي الاحتياجات الخاصة.\n12- نقابة المعاشات والتأمينات الاجتماعية.</string>
+    <string name="about_title_salamtak">برنامج سلامتك</string>
+    <string name="about_message_salamtack">اهتماما من معمل الحياة بالصحة العامة لعملائها فأننا نشجعهم علي الإطمئنان الدوري والمستمر علي صحتهم وذلك عن طريق عمل فحوصات دورية والتي من شأنها:\n\nالتعرف علي الأشخاص المعرضين للأصابة بأمراض معينة مثل مرض السكريوأمراض أخري.\nالكشف المبكر للمرض قبل ظهور أعراضة.\n\nولقد تم اختيار الفحوصات ومجاميع التحاليل الآتية بناء علي توصيات منظمة الصحة العالمية والتوصيات العلمية العالمية الاخري مثل الجمعيات العلمية الامريكية والاوروبية.</string>
+
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.AboutActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash_back"
+        android:contentDescription="@string/imageContentDescription"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/appBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/main_view_tag_aboutUs"
+            app:titleTextColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:tabGravity="fill"
+            app:tabMode="scrollable"
+            app:tabTextAppearance="@style/TextAppearance.Design.Tab"
+            app:tabSelectedTextColor="@color/yellowGold"
+            app:tabTextColor="@color/white" />
+        
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/about_back"-->
+<!--        android:contentDescription="@string/imageContentDescription"/>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical"-->
+<!--        android:gravity="center">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/main_activity_logo"-->
+<!--            android:paddingBottom="20dp"-->
+<!--            android:contentDescription="@string/imageContentDescription"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/welcome_lab"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="25sp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginVertical="15dp"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="@string/lab_description"-->
+<!--            android:background="@drawable/about_middel_text_back"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="18sp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_margin="10dp"-->
+<!--            android:padding="10dp"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:scaleType="centerCrop"-->
+<!--        android:src="@drawable/about_back"-->
+<!--        android:contentDescription="@string/imageContentDescription"/>-->
+
+</RelativeLayout>

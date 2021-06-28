@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">Al Hayah Laboratory</string>
+    <string name="imageContentDescription">Image</string>
+    <string name="main_menu_phoneText">phone</string>
+    <string name="main_menu_langText">عربي</string>
+    <string name="main_menu_aboutText">About Application</string>
+
+    <string name="main_view_tag_homeVisit">Home Visit</string>
+    <string name="main_view_tag_offers">Offers</string>
+    <string name="main_view_tag_results">Results</string>
+    <string name="main_view_tag_branches">Branches</string>
+    <string name="main_view_tag_packages">Packages</string>
+    <string name="main_view_tag_healthTips">Health Tips</string>
+    <string name="main_view_tag_examinationPrecautions">Examination Precautions</string>
+    <string name="main_view_tag_announcement">Announcement</string>
+    <string name="main_view_tag_contactUs">Contact Us</string>
+    <string name="main_view_tag_aboutUs">About Us</string>
+
+    <string name="splashActivity_updateDialogContent">update to the latest version to enjoy better services.</string>
+    <string name="splashActivity_updateDialogTitle">There is new Version</string>
+    <string name="splashActivity_update">update</string>
+    <string name="splashActivity_Exit">Exit</string>
+    <string name="splashActivity_discard">discard</string>
+    <string name="splash_poorConnectionTip">poor network connection</string>
+    <string name="Slider_next">next</string>
+    <string name="Slider_skip">skip</string>
+    <string name="Slider_start">start</string>
+    <string name="splashActivity_ask4network_title">Alert</string>
+    <string name="splashActivity_ask4network_message">The app has not been connected to the network before, you have to connect to the internet and reopen the app.</string>
+    <string name="splashActivity_unExpectedError_title">Sorry</string>
+    <string name="splashActivity_unExpectedError_message">An unexpected error has occurred. Please try again later.</string>
+    <string name="sliderActivity_alertTitle">sorry about that</string>
+    <string name="sliderActivity_alertMessage">You have to make sure you have a good network connection and reopen the app at a later time.</string>
+    <string name="opening">Opening…</string>
+    <string name="noOffersTip">There are no offers</string>
+    <string name="noBranches_tip">There are no branches</string>
+    <string name="noPackages_tip">There are no packages</string>
+    <string name="noAnnouncements_tip">There are no Announcements</string>
+
+    <string-array name="notificationTitle">
+        <item>There is a new offer</item>
+        <item>There is a new package</item>
+        <item>There is a new medical advice</item>
+        <item>There is a new branch</item>
+        <item>There is a new announcement</item>
+    </string-array>
+
+    <string name="Slider_firstSlide_header">Hi tech</string>
+    <string name="Slider_firstSlide_tip">Now through your phone, the lab is the one who will come to you</string>
+    <string name="Slider_secondSlide_header">Home visit</string>
+    <string name="Slider_secondSlide_tip">Through your phone, you can request a home visit to collect the sample from home</string>
+    <string name="Slider_thirdSlide_header">Result request</string>
+    <string name="Slider_thirdSlide_tip">We will also provide you with the results of the analysis through the application</string>
+    <string name="Slider_fourSlide_header">Lots of medical advice</string>
+    <string name="Slider_fourSlide_tip">You will receive medical advice to maintain your health that prevention is better than cure</string>
+    <string name="Slider_fiveSlide_header">Offers</string>
+    <string name="Slider_fiveSlide_tip">You will be able to enjoy lab offers and discounts by simply using the application</string>
+    <string name="Slider_sixSlide_header">let\'s go</string>
+    <string name="Slider_sixSlide_tip">Let\'s start getting lab services online</string>
+
+
+    <string name="detailsActivityTitle">Details</string>
+    <string name="see_more">SEE MORE…</string>
+    <string name="map">Map</string>
+    <string name="like_facebook">Like us on Facebook</string>
+    <string name="whatsapp">Whatsapp: 01094975895</string>
+    <string name="send_mail">Send an E-mail</string>
+    <string name="rate_play_store">Rate us on Play Store</string>
+    <string name="version">Version: %1$s</string>
+    <string name="myWhatsapp">Whatsapp: 01015677225</string>
+    <string name="app_creation_welcome">App is Created by Mostafa Abd-Elkader</string>
+    <string name="InputLayout_fullName">Full name</string>
+    <string name="InputLayoutPhone">Phone</string>
+    <string name="InputLayoutFull_address">Address</string>
+    <string name="InputLayoutTestName">Test name</string>
+    <string name="InputLayoutNotes">Notes</string>
+    <string name="submit">Submit</string>
+    <string name="attach">Attach</string>
+    <string name="homeVisitRequest_title">Home Visit Request</string>
+    <string name="homVisitTip">Please Fill in the data below and we will reach you as soon as possible</string>
+    <string name="requestSent_title">Request sent</string>
+    <string name="requestSent_description">Your request has been sent successfully and we will contact you as soon as possible.</string>
+    <string name="ok">OK</string>
+    <string name="sendingPictureTitle">Sending a picture</string>
+    <string name="sendingPictureMessage">From where do you want to send the photo?</string>
+    <string name="sendingPictureButton1">Capture image</string>
+    <string name="sendingPictureButton2">Choose an image</string>
+    <string name="cancel">Cancel</string>
+    <string name="imageNotSelected">Image not selected</string>
+    <string name="fieldRequired">This field is required.</string>
+    <string name="wrongPhone">Wrong phone number.</string>
+    <string name="gpsDisabledTitle">GPS seems to be disabled</string>
+    <string name="gpsDisabledMessage">Enable GPS and resend the order, do you want to enable it now?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="enableGps">Turn on GPS</string>
+    <string name="loadingTextGetLocation">getting location…</string>
+    <string name="loadingTextSendOrder">sending order…</string>
+    <string name="location">Location</string>
+    <string name="alertIfAttachLocationMessage">Do you want to attach your current location to the request so that a lab representative can reach you easily?</string>
+    <string name="gpsNotAllowedMessage">The application should have permission to find the location to be included with the request.</string>
+    <string name="sendPictureTitle">Sending a picture</string>
+    <string name="sendPictureMessage">From where do you want to send the photo?</string>
+    <string name="sendPictureButton1">Capture image</string>
+    <string name="sendPictureButton2">Choose an image</string>
+    <string name="uploadingImage">Uploading Image…</string>
+    <string name="percentage">Percentage: \</string>
+    <string name="imageUploaded">Image Attached Successfully.</string>
+    <string name="undo">undo</string>
+    <string name="imageCanceled">Image selection canceled.</string>
+    <string name="gpsNotAllowed">The current location can\'t be attached to the application without granting the application access to location.</string>
+    <string name="patient_name">Patient name</string>
+    <string name="resultActivityTip">Please Enter The phone number Which registered with us and we will contact you via phone call or whatsapp.</string>
+    <string name="oneTimeUse_Tip">This offer is for one time use.</string>
+
+
+    <string name="resultRequest_title">Result Request</string>
+    <string name="protect_fromCovid_title">Protect yourself from COVID-19</string>
+    <string name="dangerOfObesity_title">Danger of Obesity</string>
+    <string name="foodAllergy_title">Food Allergy</string>
+    <string name="bloodPicture_title">Importance of Complete Blood Picture</string>
+    <string name="breastCancer_title">Breast Cancer Awareness</string>
+    <string name="sensitivityOfInhalants_title">Sensitivity of Inhalants</string>
+    <string name="eatNuts_title">Eat Nuts</string>
+    <string name="drinkSugar_title">Don\'t Drink Sugar Calories</string>
+    <string name="junkFood_title">Avoid Processed Junk Food</string>
+    <string name="fearCoffe_title">Don\'t Fear Coffee</string>
+    <string name="fattyFich_title">Eat Fatty Fish</string>
+    <string name="enoughSleep_title">Get Enough Sleep</string>
+    <string name="protect_fromCovid_desc">Always clean hands by rubbing them with an alcohol disinfectant or washing them thoroughly with soap and water. \n\nWhen coughing and sneezing, be sure to cover your mouth and nose with your folded elbow or tissue, and dispose of the tissue immediately and wash your hands. \n\nAvoid approaching people with fever and cough, and keep a distance of at least one meter (3 feet). \n\nIf you have a fever, cough, and difficulty breathing, seek medical attention early. \n\nTo conduct Corona analyzes, call us now on 01094975895</string>
+    <string name="dangerOfObesity_desc">When your weight increases or you are already a fat person, you are worried, self-distrust and it\'s dangerous to your \n\nhealth The risk of obesity\n\n- Cardiology \n\n- Hypertension \n\n- brain attack \n\n- type 2 diabetes \n\n- Increase harmful blood fats \n\n- Arthritis \n\n- cancer \n\n- gallstones \n\n- gout \n\n\n\nIn Al Hayah Laboratory, you can perform 5 analyzes of obesity before starting treatment and diet to ensure safe steps Analysis of kidney functions, liver functions, thyroid, triglycerides, analysis of sugar and its types</string>
+    <string name="foodAllergy_desc">Many mothers mingle with their children when exposed to some kind of allergies. \n\nWhere they are many types and vary person to person Al Hayah Laboratory from has a sensitivity test for 30 types of food and inhalation with only one sample can through this device to identify the type of sensitivity and cause anything from the nearest Be safe and take the test of sensitivity testing for your child</string>
+    <string name="bloodPicture_desc">Have you ever known the importance of analyzing a Complete Blood Picture? It is one of the most important tests that easily detect blood diseases and other diseases that affect the functions of the body. \n\nSometimes you may feel overwhelmed and unable to do your own tasks, which may be due to anemia in your blood You may find your child does not have a full grasp of his or her school material \n\nYou should perform a complete blood image analysis on a regular basis to ensure your health and the health of your children</string>
+    <string name="breastCancer_desc">Breast cancer is one of the most prevalent diseases of women and threatens a large part of their lives \n\nEarly detection of breast cancer can reduce the risk of developing breast cancer Check and start right \n\nTo order sample withdrawal from the house, call 01094975895</string>
+    <string name="sensitivityOfInhalants_desc">One of the most difficult types of allergy is the \"sensitivity of inhalants,\" especially in the periods of dust and coolness and months of study for students Allergic infertility causes the symptoms of allergy, eye and nose and chest infections such as pollen, cats, birds, and dust mites, which causes the person to get hurt and enter into a long and painful illness. \n\nSome people may not know what is the cause of allergies, what kind of allergies and how long they are there. \n\nAl Hayah Laboratory offers this test for 30 different types of fungi, inhalants, dust, perfumes and paints</string>
+    <string name="eatNuts_desc">Despite being high in fat, nuts are incredibly nutritious and healthy. \n\nThey are loaded with magnesium, vitamin E, fiber and various other nutrients (9). \n\nStudies show that nuts can help you lose weight, and may help fight type 2 diabetes and heart disease (10, 11, 12). \n\nAdditionally, about 10–15% of the calories in nuts aren\'t even absorbed into the body, and some evidence suggests that they can boost metabolism (13). \n\nIn one study, almonds were shown to increase weight loss by 62\% compared to complex carbohydrates (14).</string>
+    <string name="drinkSugar_desc">Sugary drinks are the most fattening things you can put into your body. \n\nThis is because liquid sugar calories don\'t get registered by the brain in the same way as calories from solid foods (1). \n\nFor this reason, when you drink soda, you end up eating more total calories (2, 3). \n\nSugary drinks are strongly associated with obesity, type 2 diabetes, heart disease and all sorts of health problems (4, 5, 6, 7). \n\nKeep in mind that fruit juices are almost as bad as soda in this regard. \n\nThey contain just as much sugar, and the small amounts of antioxidants do NOT negate the harmful effects of the sugar (8).</string>
+    <string name="junkFood_desc">All the processed junk foods in the diet are the biggest reason the world is fatter and sicker than ever before. \n\nThese foods have been engineered to be \"hyper-rewarding,\" so they trick our brains into eating more than we need, even leading to addiction in some people (15). \n\nThey are also low in fiber, protein and micronutrients (empty calories), but high in unhealthy ingredients like added sugar and refined grains.</string>
+    <string name="fearCoffe_desc">Coffee has been unfairly demonized. \n\nThe truth is that it\'s actually very healthy. \n\nCoffee is high in antioxidants, and studies show that coffee drinkers live longer, and have a reduced risk of type 2 diabetes, Parkinson\'s disease, Alzheimer\'s and numerous other diseases (16, 17, 18, 19, 20, 21).</string>
+    <string name="fattyFich_desc">Pretty much everyone agrees that fish is healthy. \n\nThis is particularly true of fatty fish, like salmon, which is loaded with omega-3 fatty acids and various other nutrients (22). \n\nStudies show that people who eat the most fish have a lower risk of all sorts of diseases, including heart disease, dementia and depression (23, 24, 25).</string>
+    <string name="enoughSleep_desc">The importance of getting enough quality sleep can not be overstated. \n\nIt may be just as important as diet and exercise, if not more. \n\nPoor sleep can drive insulin resistance, throw your appetite hormones out of whack and reduce your physical and mental performance (26, 27, 28, 29). \n\nWhat\'s more, it is one of the strongest individual risk factors for future weight gain and obesity. \n\nOne study showed that short sleep was linked to 89% increased risk of obesity in children, and 55% in adults (30).</string>
+
+
+    <string-array name="AmPm">
+        <item>am</item>
+        <item>pm</item>
+    </string-array>
+
+
+    <string-array name="Months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <string name="pre_exam_title_item1">General Precautions</string>
+    <string name="pre_exam_title_item2">Urine Exam</string>
+    <string name="pre_exam_title_item3">Urine sample 24 hours</string>
+    <string name="pre_exam_title_item4">Urine 3 consecutive days</string>
+    <string name="pre_exam_title_item5">Blood lipids</string>
+    <string name="pre_exam_title_item6">Fasting Blood Sugar</string>
+    <string name="pre_exam_title_item7">Post Parndial (2 hrs)</string>
+    <string name="pre_exam_title_item8">Spit 3 consecutive days</string>
+    <string name="pre_exam_title_item9">Pregnancy Urine</string>
+    <string name="pre_exam_title_item10">Semen analysis</string>
+    <string name="pre_exam_title_item11">Swab of the penis</string>
+    <string name="pre_exam_title_item12">Pap smear</string>
+    <string name="pre_exam_title_item13">PSA Analysis</string>
+    <string name="pre_exam_title_item14">Stool Analysis</string>
+    <string name="pre_exam_title_item15">"HIAA" and "VMA" analyzes, "Catecholamine" and "HydroxyProlen</string>
+    <string name="pre_exam_title_item16">Asthma medications</string>
+    <string name="pre_exam_title_item17">Antidiabetic drugs</string>
+    <string name="pre_exam_title_item18">Prostate gland secretions</string>
+
+    <string name="pre_exam_details_item1">In the case of tests requiring patient fasting, water can be drunk at any time.\nWe provide sampling services, so we can collect samples from homes, offices or hospitals.</string>
+    <string name="pre_exam_details_item2">Wash the hand and genitalia with soap and water and disinfect the urinary incontinence.\nThen wash again with water to remove the excess disinfectant.\nThe first part of the urine is then emptied into the toilet and the rest is collected in the sterile container provided by the laboratory.\nIn order to give the microbe a chance to grow and preferably the incubation period of urine within the bladder from 2 hours to 6 hours, (in case of sending the sample from home should reach the laboratory within two hours at the most so as not to die microbial or increase the count Bkitri.</string>
+    <string name="pre_exam_details_item3">The patient empties the entire bladder into the toilet and records the time then - collects urine afterwards in a suitable clean, dry and adequate bottle for the assembly.\nThe urine is kept collected at the same time as the beginning of the assembly from the next day and the urine is kept in the refrigerator until it is sent to The lab.</string>
+    <string name="pre_exam_details_item4">This analysis works to detect the TB microbial in 3 samples because the microbe can be shown in a sample and not shown in another sample</string>
+    <string name="pre_exam_details_item5">Fasting is required for 12–14 hours to complete the absorption of fat in the blood and its stability</string>
+    <string name="pre_exam_details_item6">Fasting is required from 6–8 hours in order to complete the burning of sugar and taking the ratio</string>
+    <string name="pre_exam_details_item7">Please start counting two hours of your meal and taking any medication if you need to, taking care to finish eating within 10 minutes at most (and not taking anything until you have your blood sample).\nPlease come to the lab 15 minutes before the analysis.</string>
+    <string name="pre_exam_details_item8">Please collect the first spit in the morning after gurgling with water several times before eating, and we will not accept saliva samples.\nSamples must be delivered separately on the same day.\nYou may wish to use hot water vapor inhalation in the morning to facilitate sample collection.</string>
+    <string name="pre_exam_details_item9">Preferably the first urine in the morning where the hormone pregnancy is more concentrated - with the reduction of fluid intake the evening before the analysis - so as not to hide the concentration of the hormone if the result is negative we suggest a pregnancy test by blood because this test is more sensitive.</string>
+    <string name="pre_exam_details_item10">It is necessary to abstain from intercourse or to have a period of 3–5 days in a row so as not to be affected by the quantity.\nIt is preferable to give the sample in the laboratory with attention to placing the first points of semen because these points have Three-quarters sperm count.\nIf the sample is brought from the house, More than 20 minutes</string>
+    <string name="pre_exam_details_item11">The urine is kept for an hour before the test until the urethra is completely dry to make sure that the microbe is present from the penis and not from the urine.</string>
+    <string name="pre_exam_details_item12">This sample has an earlier date and requires no intercourse for two days until we make sure that the microbe took its chance to grow with the antibiotic abstain for 48 hours</string>
+    <string name="pre_exam_details_item13">The patient will abstain 10 days prior to performing the analysis on the introduction of a laparoscope or catheter or an anal examination of the prostate because this will affect the outcome of the analysis only if there is another opinion of the treating physician</string>
+    <string name="pre_exam_details_item14">The sample is required to arrive at the laboratory within two hours at the most because there are some microbes that die quickly and do not accept samples in Pampers or cartons because they absorb fluid from the sample and drought kill the microbes and prefer to refrain from antibiotic for 48 hours.</string>
+    <string name="pre_exam_details_item15">Collect a 24-hour urine sample (as described above) in a special bottle provided by the laboratory.\nDuring the previous 48 hours, avoid eating or swallowing any tea, coffee, biscuits, vanilla, plum, avocado, pineapple, eggplant, tomatoes or bananas.</string>
+    <string name="pre_exam_details_item16">The drug is taken for 5 days regularly, with the aim of reaching a fixed level of blood and requiring no vomiting or diarrhea for 48 hours prior to the analysis because this will affect the dose and thus the level of the drug in blood.\nA sample is taken before any dose to calculate the proportion of the drug at the lowest level (Trough) After taking the medicine 2 hours (different from one drug to another) to calculate the highest percentage of blood in the blood (Peak) so that we make sure that the dose without access to drug poisoning</string>
+    <string name="pre_exam_details_item17">The drug is taken for 5 days regularly, with the aim of reaching a fixed level of blood and requiring no vomiting or diarrhea for 48 hours prior to the analysis because this will affect the dose and thus the level of the drug in blood.\nA sample is taken before any dose to calculate the proportion of the drug at the lowest level (Trough) After taking the medicine 2 hours (different from one drug to another) to calculate the highest percentage of blood in the blood (Peak) so that we make sure that the dose without access to drug poisoning</string>
+    <string name="pre_exam_details_item18">Analysis is by reservation only.\nThe patient should refrain from urinating for a while before undergoing analysis, and it is advisable not to take any antibiotics during the 48 hours prior to the analysis.</string>
+
+    <string name="about_tag_whoseWe">who are we</string>
+    <string name="about_tag_ourSight">our vision</string>
+    <string name="about_tag_ourMessage">Our message </string>
+    <string name="about_tag_ourPrevilges">distinguish us</string>
+    <string name="about_tag_agreements">Contracts</string>
+    <string name="about_tag_salamtkProgram">Salamtak program</string>
+    <string name="about_title_whoseWe">who are we ?</string>
+    <string name="about_message_whoseWe">We are a medical team that strives to make a small but positive contribution to a better future and works to build a better, stronger and healthier society by improving access to quality service.</string>
+    <string name="about_title_ourSight">our vision </string>
+    <string name="about_message_ourSight">To be the best in providing the service in the shortest possible time at the appropriate cost without high cost or exploitation, and we seek to achieve the vision through:\nThe full commitment of the work team to provide the service to the fullest\nand the use of new and advanced technology.</string>
+    <string name="about_title_outMessage">Our message</string>
+    <string name="about_message_ourMessage">To always be next to every person who needs service and provide him with high quality laboratory diagnostic information in the least possible time and at the most appropriate prices.</string>
+    <string name="about_title_ourPrivilage">We are distinguished by…</string>
+    <string name="about_message_ourPrivilage">The lab has a distinguished medical team working in a team spirit.\nThe lab provides a hormone and tumor marker.\nThe lab provides the latest device in the work of cumulative sugar.\nThe lab provides a (CASA) device for computerized semen analysis.\nThe lab is unique in applying the barcode system in recording samples to prevent possibilities Human error in entering samples into devices.\nThe lab operates 24 hours a day, taking into account emergencies.\nThe lab provides a sample collection service from homes and clinics.\nThe lab provides subscription programs at various discounted prices that suit everyone.\nThe lab welcomes all contracts with institutions The laboratory provides a self-sampling system (vaccum) to prevent the possibility of samples contamination.\nThe laboratory has a distinguished medical team in withdrawing samples for newborns.</string>
+    <string name="about_title_agreement">Clients contracted with Al Hayah Laboratory</string>
+    <string name="about_message_agreement">1- The National Bank of Egypt.\n2- Tasahil Association for Loans.\n3- Bar Association.\n4- Water and Sanitation Company.\n5- Al-Rahi Office for Development.\n6- Al-Mahaba Coptic Orthodox Association.\n7- Al-Rouad Association for Community Development in Al-Khattarah .\n8- Al-Bir Society for Community Development in Al-Khattarah.\n9- Women’s Association for Community Development in Hajer Danfiq.\n10- Al-Nada Association for Community Development in Hajer Danfik.\n11- Happy Heart Center for Special Needs.\n12- Pension and Social Security Syndicate.</string>
+    <string name="about_title_salamtak">Salamtak program</string>
+    <string name="about_message_salamtack">Al-Hayat lab pays attention to the public health of its customers, we encourage them to periodically and continuously reassure their health by doing periodic examinations, which will:\n\nidentify people who are exposed to certain diseases such as diabetes and other diseases.\nEarly detection of the disease before its symptoms appear.\n \nThe following tests and totals of analyzes were selected based on the recommendations of the World Health Organization and other global scientific recommendations, such as the American and European scientific societies.</string>
+
+
+</resources>

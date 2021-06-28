@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_title_ourSight"
+            android:textColor="@color/yellowGold"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:paddingVertical="20dp"
+            android:layout_marginVertical="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_message_ourSight"
+            android:background="@drawable/about_middel_text_back"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
+
